@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.masthead {
+    background: url("../img/header4.jpg") center center;
+    background-size: cover;
+    height: calc(100vh - 56px) !important;
+}
+
+.topheader {
+    height: calc(100vh - 56px);
+}
+
+.masthead hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    width: 40%;
+    height: 3px;
+}
+
+.masthead h1 {
+    font-size: 30px;
+}
+
+.masthead p {
+    font-weight: 400;
+    width: 70%;
+    margin: 0 auto;
+    background-color: rgba(128,128,128, 0.7);
+    padding: 10px;
+}
+
+@media (min-width: 992px) {
+    .masthead {
+        height: 100vh;
+        min-height: 650px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .masthead h1 {
+        font-size: 26px;
+    }
+}
+
+.btn {
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.navbar {
+    z-index: 100;
+}
+
+a {
+    cursor: pointer;
+}
+
+.race-details {
+    color: black;
+    cursor: pointer;
+    text-decoration: none !important;
+}
+
+.race-details a:hover {
+    color: #007bff !important;
+    text-decoration: none;
+}
+
+li {
+    cursor: pointer;
+}
+
+.btn-link:hover {
+    text-decoration: none !important;
+}
+
+.btn-link:focus {
+    text-decoration: none !important;
+}
+
+.btn-link:visited {
+    text-decoration: none !important;
+}
