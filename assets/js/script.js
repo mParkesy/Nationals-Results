@@ -29,11 +29,37 @@ let accordions = [
             entries : "race1entries.html",
             results : "race1results.html"
         },
-    {
-        raceName: "Test 4",
-        entries : "race1entries.html",
-        results : "race1results.html"
-    }
+        {
+            raceName: "Test 4",
+            entries : "race1entries.html",
+            results : "race1results.html"
+        },
+        {
+            raceName: "Test 5",
+            entries : "race1entries.html",
+            results : "race1results.html"
+        },
+        {
+            raceName: "Test 6",
+            entries : "race1entries.html",
+            results : "race1results.html"
+        },
+        {
+            raceName: "Test 7",
+            entries : "race1entries.html",
+            results : "race1results.html"
+        },
+        {
+            raceName: "Test 8",
+            entries : "race1entries.html",
+            results : "race1results.html"
+        },
+        {
+            raceName: "Test 9",
+            entries : "race1entries.html",
+            results : "race1results.html"
+        },
+
 ]
 
 let card = "";
@@ -41,7 +67,7 @@ let card = "";
 for(let i = 0; i < accordions.length; i++){
     let num = inWords(i+1);
     card = '                    <div class="card">\n' +
-        '                        <div class="card-header" id="heading'+num+'">\n' +
+        '                        <div class="card-header" id="heading'+num+'" data-toggle="collapse" data-target="#collapse'+num+'" aria-expanded="false" aria-controls="collapse'+num+'">\n' +
         '                            <h5 class="mb-0">\n' +
         '                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse'+num+'" aria-expanded="false" aria-controls="collapse'+num+'">\n' +
         '                                    '+accordions[i].raceName+'\n' +
